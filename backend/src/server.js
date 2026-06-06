@@ -110,6 +110,15 @@ app.get('/health', (_req, res) => {
   });
 });
 
+// Root check
+app.get('/', (_req, res) => {
+  res.json({
+    message: 'Welcome to the SmartHR Nexus API',
+    status: 'healthy',
+    timestamp: new Date().toISOString(),
+  });
+});
+
 // API Routes
 const apiV1 = `/api/${process.env.API_VERSION || 'v1'}`;
 app.use(`${apiV1}/auth`, authRoutes);
