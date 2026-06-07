@@ -13,7 +13,7 @@ SmartHR Nexus is a state-of-the-art, full-stack HRMS with dedicated, role-based 
 
 The platform is architected with React 18, Node.js, Express, MongoDB (Mongoose), Redis (for session management and caching), Socket.io (for real-time events), and Tailwind CSS for styling.
 
-**Repository:** [github.com/adityakr1108/SmartHR-Nexus-AI-Workforce-Platform](https://github.com/adityakr1108/SmartHR-Nexus-AI-Workforce-Platform)
+
 
 ---
 
